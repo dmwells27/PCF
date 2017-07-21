@@ -6,6 +6,4 @@ cf ssh  dmw-pcf-demo-basic
 
 cf stop dmw-pcf-demo-basic 
 
-cf marketplace
-
-cf create-service cleardb spark mydb
+cf ssh -L 10009:localhost:10009 dmw-pcf-demo-basic

@@ -4,7 +4,9 @@ cf push
 
 cf ssh  dmw-pcf-demo-mysql
 
-cf stop dmw-pcf-demo-mysql 
+cf stop dmw-pcf-demo-mysql
+
+cf marketplace
 
 cf marketplace
 
